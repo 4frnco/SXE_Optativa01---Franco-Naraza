@@ -384,7 +384,7 @@ Ya para terminar podemos observar como Dolibarr y Wordpress funcionan simultanea
 
 ## Bibliografía
 
----
+
 * [Dolibarr – Sitio oficial](https://www.dolibarr.org/)
 * [Dolibarr – Documentación](https://wiki.dolibarr.org/)
 * [Apache HTTP Server – Alias](https://httpd.apache.org/docs/2.4/mod/mod_alias.html)
