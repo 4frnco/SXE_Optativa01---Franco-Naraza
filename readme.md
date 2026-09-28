@@ -1,5 +1,15 @@
 # Instalación y configuración de Dolibarr
 
+---
+Franco Naraza
+
+## Introducción:
+
+En esta práctica se realiza la instalación y configuración de Dolibarr en un servidor Ubuntu que ya dispone de WordPress, Apache, PHP y MariaDB. El objetivo es conseguir que ambas aplicaciones funcionen simultáneamente en el mismo servidor, manteniendo sus configuraciones y bases de datos separadas. Durante el proceso también se comprueban los requisitos necesarios, se solucionan los problemas encontrados y se verifica el funcionamiento final de las dos aplicaciones.
+
+---
+
+
 ## 1. Conexión al servidor mediante SSH
 
 Para realizar la instalación y configuración de Dolibarr se accederá al servidor Ubuntu mediante SSH desde el equipo cliente. Esto permite administrar el servidor de forma remota mediante la terminal.
@@ -370,3 +380,17 @@ Ya para terminar podemos observar como Dolibarr y Wordpress funcionan simultanea
 <br>
 <em>Comprobación final. </em>
 </p>
+
+
+## Bibliografía
+
+---
+* [Dolibarr – Sitio oficial](https://www.dolibarr.org/)
+* [Dolibarr – Documentación](https://wiki.dolibarr.org/)
+* [Apache HTTP Server – Alias](https://httpd.apache.org/docs/2.4/mod/mod_alias.html)
+* [PHP – Instalación y configuración](https://www.php.net/manual/es/install.php)
+* [MariaDB – CREATE DATABASE](https://mariadb.com/docs/server/reference/sql-statements/data-definition/create/create-database)
+
+### Prompt importante:
+
+> Estoy instalando Dolibarr en un Ubuntu Server donde ya tengo WordPress funcionando con Apache, PHP y MariaDB. Durante la instalación web de Dolibarr aparece un error indicando que mi instalación de PHP no admite las funciones GD. Explícame qué significa este error, cómo puedo instalar la extensión GD en Ubuntu, qué comandos debo ejecutar para comprobar que se ha instalado correctamente y qué debo hacer después para que Apache/PHP la detecte.
