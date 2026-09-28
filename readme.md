@@ -1,6 +1,6 @@
 # Instalación y configuración de Dolibarr
 
----
+
 Franco Naraza
 
 ## Introducción:
